@@ -1,0 +1,5 @@
+#日志高亮输出
+spring:
+  output:
+    ansi:
+      enabled: always
