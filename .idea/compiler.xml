@@ -6,16 +6,22 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="datasourcedemo" />
         <module name="simplejdbcdemo" />
+        <module name="multidatasourcedemo" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="datasourcedemo" target="1.8" />
+      <module name="multidatasourcedemo" target="1.8" />
       <module name="simplejdbcdemo" target="1.8" />
       <module name="waiter-service" target="1.8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="datasourcedemo" options="-parameters" />
+      <module name="multidatasourcedemo" options="-parameters" />
       <module name="simplejdbcdemo" options="-parameters" />
       <module name="waiter-service" options="-parameters" />
     </option>

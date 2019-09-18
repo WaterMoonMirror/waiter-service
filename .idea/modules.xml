@@ -2,6 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/datasource-demo/datasourcedemo.iml" filepath="$PROJECT_DIR$/datasource-demo/datasourcedemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/multi-datasource-demo/multidatasourcedemo.iml" filepath="$PROJECT_DIR$/multi-datasource-demo/multidatasourcedemo.iml" />
       <module fileurl="file://$PROJECT_DIR$/simple-jdbc-demo/simplejdbcdemo.iml" filepath="$PROJECT_DIR$/simple-jdbc-demo/simplejdbcdemo.iml" />
       <module fileurl="file://$PROJECT_DIR$/waiter-service.iml" filepath="$PROJECT_DIR$/waiter-service.iml" />
     </modules>

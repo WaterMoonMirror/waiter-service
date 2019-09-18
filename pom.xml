@@ -5,6 +5,8 @@
     <packaging>pom</packaging>
     <modules>
         <module>simple-jdbc-demo</module>
+        <module>datasource-demo</module>
+        <module>multi-datasource-demo</module>
     </modules>
     <parent>
         <groupId>org.springframework.boot</groupId>
@@ -38,6 +40,10 @@
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-webflux</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-actuator</artifactId>
         </dependency>
 
         <dependency>
