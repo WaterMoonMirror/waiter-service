@@ -7,6 +7,7 @@
         <module>simple-jdbc-demo</module>
         <module>datasource-demo</module>
         <module>multi-datasource-demo</module>
+        <module>druid-demo</module>
     </modules>
     <parent>
         <groupId>org.springframework.boot</groupId>
@@ -27,25 +28,8 @@
     <dependencies>
         <dependency>
             <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-data-jpa</artifactId>
-        </dependency>
-        <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-data-redis-reactive</artifactId>
-        </dependency>
-        <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-thymeleaf</artifactId>
-        </dependency>
-        <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-webflux</artifactId>
-        </dependency>
-        <dependency>
-            <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-actuator</artifactId>
         </dependency>
-
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-devtools</artifactId>

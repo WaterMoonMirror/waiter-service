@@ -1,0 +1,21 @@
+spring:
+  output:
+    ansi:
+      enabled: always
+  datasource:
+    url: jdbc:h2:mem:testdb
+    password: n/z7PyA5cvcXvs8px8FVmBVpaRyNsvJb3X7YfS38DJrIg25EbZaZGvH4aHcnc97Om0islpCAPc3MqsGvsrxVJw==
+    username: sa
+    druid:
+      initial-size: 5
+      max-active: 5
+      min-idle: 5
+      filters: conn,config,stat,slf4j
+      connection-properties: config.decrypt=true;config.decrypt.key=${public-key}
+      clear-filters-enable: true
+      test-on-borrow: true
+      test-on-return: true
+      test-while-idle: true
+public-key: MFwwDQYJKoZIhvcNAQEBBQADSwAwSAJBALS8ng1XvgHrdOgm4pxrnUdt3sXtu/E8My9KzX8sXlz+mXRZQCop7NVQLne25pXHtZoDYuMh3bzoGj6v5HvvAQ8CAwEAAQ==
+
+
