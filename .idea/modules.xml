@@ -6,6 +6,7 @@
       <module fileurl="file://$PROJECT_DIR$/declarative-transaction-demo/declarative-transaction-demo.iml" filepath="$PROJECT_DIR$/declarative-transaction-demo/declarative-transaction-demo.iml" />
       <module fileurl="file://$PROJECT_DIR$/druid-demo/druiddemo.iml" filepath="$PROJECT_DIR$/druid-demo/druiddemo.iml" />
       <module fileurl="file://$PROJECT_DIR$/multi-datasource-demo/multidatasourcedemo.iml" filepath="$PROJECT_DIR$/multi-datasource-demo/multidatasourcedemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/programmatic-transaction-demo/programmatic-transaction-demo.iml" filepath="$PROJECT_DIR$/programmatic-transaction-demo/programmatic-transaction-demo.iml" />
       <module fileurl="file://$PROJECT_DIR$/simple-jdbc-demo/simplejdbcdemo.iml" filepath="$PROJECT_DIR$/simple-jdbc-demo/simplejdbcdemo.iml" />
       <module fileurl="file://$PROJECT_DIR$/waiter-service.iml" filepath="$PROJECT_DIR$/waiter-service.iml" />
     </modules>
