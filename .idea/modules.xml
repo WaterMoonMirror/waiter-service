@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/datasource-demo/datasourcedemo.iml" filepath="$PROJECT_DIR$/datasource-demo/datasourcedemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/declarative-transaction-demo/declarative-transaction-demo.iml" filepath="$PROJECT_DIR$/declarative-transaction-demo/declarative-transaction-demo.iml" />
       <module fileurl="file://$PROJECT_DIR$/druid-demo/druiddemo.iml" filepath="$PROJECT_DIR$/druid-demo/druiddemo.iml" />
       <module fileurl="file://$PROJECT_DIR$/multi-datasource-demo/multidatasourcedemo.iml" filepath="$PROJECT_DIR$/multi-datasource-demo/multidatasourcedemo.iml" />
       <module fileurl="file://$PROJECT_DIR$/simple-jdbc-demo/simplejdbcdemo.iml" filepath="$PROJECT_DIR$/simple-jdbc-demo/simplejdbcdemo.iml" />

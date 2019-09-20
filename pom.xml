@@ -8,6 +8,7 @@
         <module>datasource-demo</module>
         <module>multi-datasource-demo</module>
         <module>druid-demo</module>
+        <module>declarative-transaction-demo</module>
     </modules>
     <parent>
         <groupId>org.springframework.boot</groupId>

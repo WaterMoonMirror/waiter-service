@@ -9,11 +9,13 @@
         <module name="datasourcedemo" />
         <module name="druiddemo" />
         <module name="simplejdbcdemo" />
+        <module name="declarative-transaction-demo" />
         <module name="multidatasourcedemo" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="datasourcedemo" target="1.8" />
+      <module name="declarative-transaction-demo" target="1.8" />
       <module name="druiddemo" target="1.8" />
       <module name="multidatasourcedemo" target="1.8" />
       <module name="simplejdbcdemo" target="1.8" />
@@ -23,6 +25,7 @@
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="datasourcedemo" options="-parameters" />
+      <module name="declarative-transaction-demo" options="-parameters" />
       <module name="druiddemo" options="-parameters" />
       <module name="multidatasourcedemo" options="-parameters" />
       <module name="simplejdbcdemo" options="-parameters" />

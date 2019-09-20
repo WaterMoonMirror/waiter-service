@@ -3,6 +3,7 @@
   <component name="Encoding">
     <file url="file://$PROJECT_DIR$" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/datasource-demo" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/declarative-transaction-demo" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/druid-demo" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/multi-datasource-demo" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/simple-jdbc-demo" charset="UTF-8" />
